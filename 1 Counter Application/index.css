@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 64px;
+  height: 100vh;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box button {
+  width: 96px;
+  height: 96px;
+  font-size: 64px;
+}
+.box div {
+  width: auto;
+  padding: 0 32px;
+  height: 96px;
+  font-size: 64px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
